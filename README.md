@@ -7,6 +7,8 @@ Android downloader Lib, you can use it  downloading file from network. support p
 [xckevin](https://github.com/xckevin)
 
 This Project and Lib are base on xckevin's [Android-Download-Component](https://github.com/xckevin/Android-Download-Component).
+
+中文说明
 =======
 
 这是一个Android的下载lib，可以用它来从网上下载东西，支持暂停、继续和取消。注意，这个lib只支持Http和Https。
