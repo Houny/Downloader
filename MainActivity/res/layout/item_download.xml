@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/item_action_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/item_start"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/item_stop"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            style="@style/btn_download_action"
+            android:text="Stop" />
+
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_info_Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/item_action_Layout"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_name"
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/item_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_speed"
+            android:text="Speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
