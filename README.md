@@ -16,7 +16,7 @@ This Project and Lib are base on xckevin's [Android-Download-Component](https://
 ###致谢
 [xckevin](https://github.com/xckevin)
 
-这个项目实在[xckevin](https://github.com/xckevin)的[Android-Download-Component](https://github.com/xckevin/Android-Download-Component)的基础上修改而来的。
-我只是改了该lib里的某些地方好让它更方便用，并修改了一个Activity。
+这个项目是在[xckevin](https://github.com/xckevin)的[Android-Download-Component](https://github.com/xckevin/Android-Download-Component)的基础上修改而来的。
+我只是改了该lib里的某些地方让它更方便用，并修改了一个Activity。
 
-如果你想要实现豌豆荚那样的效果，一处点击添加任务，多出都可以监听下载的话，可以使用这个。
+如果你想要实现豌豆荚那样的，一处点击添加任务，多处监听下载进度的效果的话，可以使用这个。
